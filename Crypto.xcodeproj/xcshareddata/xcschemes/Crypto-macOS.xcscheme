@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318A01FA4578E00AD1BDF"
                BuildableName = "CommonCrypto.framework"
-               BlueprintName = "CommonCrypto-macOS"
+               BlueprintName = "LIBCC-macOS"
                ReferencedContainer = "container:LIBCC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A3190F1FA4C70300AD1BDF"
-               BuildableName = "Crypto_macOS.framework"
+               BuildableName = "CommonCrypto.framework"
                BlueprintName = "Crypto-macOS"
                ReferencedContainer = "container:Crypto.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A3190F1FA4C70300AD1BDF"
-            BuildableName = "Crypto_macOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-macOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A3190F1FA4C70300AD1BDF"
-            BuildableName = "Crypto_macOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-macOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A3190F1FA4C70300AD1BDF"
-            BuildableName = "Crypto_macOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-macOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>

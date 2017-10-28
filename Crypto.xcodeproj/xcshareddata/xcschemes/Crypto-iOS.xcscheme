@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318781FA4574D00AD1BDF"
                BuildableName = "CommonCrypto.framework"
-               BlueprintName = "CommonCrypto-iOS"
+               BlueprintName = "LIBCC-iOS"
                ReferencedContainer = "container:LIBCC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318C11FA4C46400AD1BDF"
-               BuildableName = "Crypto_iOS.framework"
+               BuildableName = "CommonCrypto.framework"
                BlueprintName = "Crypto-iOS"
                ReferencedContainer = "container:Crypto.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318C11FA4C46400AD1BDF"
-            BuildableName = "Crypto_iOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-iOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318C11FA4C46400AD1BDF"
-            BuildableName = "Crypto_iOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-iOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318C11FA4C46400AD1BDF"
-            BuildableName = "Crypto_iOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-iOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>

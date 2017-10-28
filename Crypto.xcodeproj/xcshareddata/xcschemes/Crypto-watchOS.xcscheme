@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318861FA4576900AD1BDF"
                BuildableName = "CommonCrypto.framework"
-               BlueprintName = "CommonCrypto-watchOS"
+               BlueprintName = "LIBCC-watchOS"
                ReferencedContainer = "container:LIBCC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318E61FA4C69C00AD1BDF"
-               BuildableName = "Crypto_watchOS.framework"
+               BuildableName = "CommonCrypto.framework"
                BlueprintName = "Crypto-watchOS"
                ReferencedContainer = "container:Crypto.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318E61FA4C69C00AD1BDF"
-            BuildableName = "Crypto_watchOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-watchOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318E61FA4C69C00AD1BDF"
-            BuildableName = "Crypto_watchOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-watchOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -89,7 +89,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318E61FA4C69C00AD1BDF"
-            BuildableName = "Crypto_watchOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-watchOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>

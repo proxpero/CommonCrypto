@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		52A318791FA4574D00AD1BDF /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A318791FA4574D00AD1BDF /* LIBCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LIBCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A3187D1FA4574D00AD1BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A318871FA4576900AD1BDF /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A318941FA4577C00AD1BDF /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A318A11FA4578E00AD1BDF /* CommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A318871FA4576900AD1BDF /* LIBCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LIBCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A318941FA4577C00AD1BDF /* LIBCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LIBCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A318A11FA4578E00AD1BDF /* LIBCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LIBCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A318A91FA458DE00AD1BDF /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
 		52A318AA1FA458DE00AD1BDF /* watchos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = watchos.modulemap; sourceTree = "<group>"; };
 		52A318AB1FA458DE00AD1BDF /* appletvsimulator.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = appletvsimulator.modulemap; sourceTree = "<group>"; };
@@ -65,10 +65,10 @@
 		52A3187A1FA4574D00AD1BDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A318791FA4574D00AD1BDF /* CommonCrypto.framework */,
-				52A318871FA4576900AD1BDF /* CommonCrypto.framework */,
-				52A318941FA4577C00AD1BDF /* CommonCrypto.framework */,
-				52A318A11FA4578E00AD1BDF /* CommonCrypto.framework */,
+				52A318791FA4574D00AD1BDF /* LIBCC.framework */,
+				52A318871FA4576900AD1BDF /* LIBCC.framework */,
+				52A318941FA4577C00AD1BDF /* LIBCC.framework */,
+				52A318A11FA4578E00AD1BDF /* LIBCC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +123,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52A318781FA4574D00AD1BDF /* CommonCrypto-iOS */ = {
+		52A318781FA4574D00AD1BDF /* LIBCC-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A3187F1FA4574D00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-iOS" */;
+			buildConfigurationList = 52A3187F1FA4574D00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-iOS" */;
 			buildPhases = (
 				52A318741FA4574D00AD1BDF /* Sources */,
 				52A318751FA4574D00AD1BDF /* Frameworks */,
@@ -136,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = "CommonCrypto-iOS";
+			name = "LIBCC-iOS";
 			productName = "CommonCrypto-iOS";
-			productReference = 52A318791FA4574D00AD1BDF /* CommonCrypto.framework */;
+			productReference = 52A318791FA4574D00AD1BDF /* LIBCC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52A318861FA4576900AD1BDF /* CommonCrypto-watchOS */ = {
+		52A318861FA4576900AD1BDF /* LIBCC-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A3188C1FA4576900AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-watchOS" */;
+			buildConfigurationList = 52A3188C1FA4576900AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-watchOS" */;
 			buildPhases = (
 				52A318821FA4576900AD1BDF /* Sources */,
 				52A318831FA4576900AD1BDF /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = "CommonCrypto-watchOS";
+			name = "LIBCC-watchOS";
 			productName = "CommonCrypto-watchOS";
-			productReference = 52A318871FA4576900AD1BDF /* CommonCrypto.framework */;
+			productReference = 52A318871FA4576900AD1BDF /* LIBCC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52A318931FA4577C00AD1BDF /* CommonCrypto-tvOS */ = {
+		52A318931FA4577C00AD1BDF /* LIBCC-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A318991FA4577C00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-tvOS" */;
+			buildConfigurationList = 52A318991FA4577C00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-tvOS" */;
 			buildPhases = (
 				52A3188F1FA4577C00AD1BDF /* Sources */,
 				52A318901FA4577C00AD1BDF /* Frameworks */,
@@ -172,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = "CommonCrypto-tvOS";
+			name = "LIBCC-tvOS";
 			productName = "CommonCrypto-tvOS";
-			productReference = 52A318941FA4577C00AD1BDF /* CommonCrypto.framework */;
+			productReference = 52A318941FA4577C00AD1BDF /* LIBCC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52A318A01FA4578E00AD1BDF /* CommonCrypto-macOS */ = {
+		52A318A01FA4578E00AD1BDF /* LIBCC-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A318A61FA4578E00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-macOS" */;
+			buildConfigurationList = 52A318A61FA4578E00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-macOS" */;
 			buildPhases = (
 				52A3189C1FA4578E00AD1BDF /* Sources */,
 				52A3189D1FA4578E00AD1BDF /* Frameworks */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = "CommonCrypto-macOS";
+			name = "LIBCC-macOS";
 			productName = "CommonCrypto-macOS";
-			productReference = 52A318A11FA4578E00AD1BDF /* CommonCrypto.framework */;
+			productReference = 52A318A11FA4578E00AD1BDF /* LIBCC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -233,10 +233,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A318781FA4574D00AD1BDF /* CommonCrypto-iOS */,
-				52A318861FA4576900AD1BDF /* CommonCrypto-watchOS */,
-				52A318931FA4577C00AD1BDF /* CommonCrypto-tvOS */,
-				52A318A01FA4578E00AD1BDF /* CommonCrypto-macOS */,
+				52A318781FA4574D00AD1BDF /* LIBCC-iOS */,
+				52A318861FA4576900AD1BDF /* LIBCC-watchOS */,
+				52A318931FA4577C00AD1BDF /* LIBCC-tvOS */,
+				52A318A01FA4578E00AD1BDF /* LIBCC-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -379,7 +379,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -447,7 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -522,7 +522,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -591,7 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -666,7 +666,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -734,7 +734,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -812,7 +812,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -881,7 +881,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.CommonCrypto;
-				PRODUCT_NAME = CommonCrypto;
+				PRODUCT_NAME = LIBCC;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -903,7 +903,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A3187F1FA4574D00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-iOS" */ = {
+		52A3187F1FA4574D00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A318801FA4574D00AD1BDF /* Debug */,
@@ -912,7 +912,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A3188C1FA4576900AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-watchOS" */ = {
+		52A3188C1FA4576900AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A3188D1FA4576900AD1BDF /* Debug */,
@@ -921,7 +921,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A318991FA4577C00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-tvOS" */ = {
+		52A318991FA4577C00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A3189A1FA4577C00AD1BDF /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A318A61FA4578E00AD1BDF /* Build configuration list for PBXNativeTarget "CommonCrypto-macOS" */ = {
+		52A318A61FA4578E00AD1BDF /* Build configuration list for PBXNativeTarget "LIBCC-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A318A71FA4578E00AD1BDF /* Debug */,

@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318931FA4577C00AD1BDF"
                BuildableName = "CommonCrypto.framework"
-               BlueprintName = "CommonCrypto-tvOS"
+               BlueprintName = "LIBCC-tvOS"
                ReferencedContainer = "container:LIBCC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "52A318F31FA4C6C400AD1BDF"
-               BuildableName = "Crypto_tvOS.framework"
+               BuildableName = "CommonCrypto.framework"
                BlueprintName = "Crypto-tvOS"
                ReferencedContainer = "container:Crypto.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318F31FA4C6C400AD1BDF"
-            BuildableName = "Crypto_tvOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-tvOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -81,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318F31FA4C6C400AD1BDF"
-            BuildableName = "Crypto_tvOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-tvOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "52A318F31FA4C6C400AD1BDF"
-            BuildableName = "Crypto_tvOS.framework"
+            BuildableName = "CommonCrypto.framework"
             BlueprintName = "Crypto-tvOS"
             ReferencedContainer = "container:Crypto.xcodeproj">
          </BuildableReference>
